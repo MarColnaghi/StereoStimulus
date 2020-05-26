@@ -3,4 +3,6 @@
 Only works with a stereo-compatible Hardware.
 
 
-## Prova
+## Stimulus Delivery
+Adapted from [neuroGit](https://github.com/mscaudill/neurogit). Prompt "StimGen" in the command window and select "Stereo Bar noRotation" from the list. Stimulus parameters can be changed directly from the window.
+
