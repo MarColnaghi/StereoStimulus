@@ -1,7 +1,7 @@
 # StereoStimulus
 
 StereoStimulus uses [PsychToolBox](http://psychtoolbox.org/) to draw complex stereoscopic stimuli for visual neuroscience experiments. It includes [neuroGit's](https://github.com/mscaudill/neurogit) graphic user interface, providing millisecond-level timing accuracy and the storage of all the parameters of the running experiment. <br>
-Only works with a stereo-compatible Hardware, see Requirements for more detail.
+Only works with a stereo-compatible Hardware, see Requirements for more details.
 
 ## Stimulus Delivery
 
