@@ -13,3 +13,8 @@ StereoBarNoRotation exploits random dot stereograms (RDS) to effeectively presen
 
 ## 3D Glasses Control
 To control [our 3D glasses](http://xpandvision.com/products/xpand-3d-glasses-lite-ir-rf/), we have created an Arduino-based controller. We were able to extract the refresh rate signal from our graphic card's (NVidia Quadro) 3 PIN MINI-DIN to provide the accurate synch to the glasses, which, in turn, repeatedly shut one of the two lenses based on which frame (Left/Right) is displayed.
+
+## Requirements
+  Stereo-compatible Graphic Card.
+  120Hz Refresh Rate Monitor
+  3D IR glasses
