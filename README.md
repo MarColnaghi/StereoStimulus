@@ -11,4 +11,5 @@ Prompt `StimGen` in the command window and select the desired stimulus from the 
 
 StereoBarNoRotation explois a random dot stereogram (RDS) to present a bar with fixed dimensions (Height and Width) moving along the two main axes. Number and size of dots can be modified accordingly to hardware capacity, as well as displacement difference between the two images. For our experiment's purpose, two servomotors are employed to shut the lenses of the 3D glasses depending on trial type (line 110 to 122 for more information).
 
-## 3D Glasses control
+## 3D Glasses Control
+To control [our 3D glasses], we have created an Arduino-based controller. We were able to extract the refresh rate signal from our graphic card's (NVidia Quadro) 3 PIN MINI-DIN to provide the accurate synch to the glasses, which, in turn, repeatedly shuts one of the two lenses based on which frame (Left/Right) is displayed with PTB.
